@@ -1,0 +1,1 @@
+document.title = 'Welcome  |  ' + window.location.hostname;
