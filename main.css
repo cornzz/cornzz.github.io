@@ -31,7 +31,7 @@ h2 {
 	width: 35%;
 	background-color: white;
 	border-radius: 1px;
-	box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 2px 1.5px rgba(0, 0, 0, 0.25);
 }
 
 .container:before{
@@ -40,8 +40,36 @@ h2 {
 	padding-top: 53%;
 }
 
+.a {
+	transform: translateX(-50%) translateY(-50%) rotate(2deg);
+	box-shadow: 0 2px 2px 1.5px rgba(0, 0, 0, 0);
+
+}
+
+.b {
+	transform: translateX(-50%) translateY(-50%) rotate(-1deg);
+	box-shadow: 0 2px 2px 1.5px rgba(0, 0, 0, 0);
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
 	font-size: 18px;
 }
+
+/**
+.headshot {
+	position: relative;
+	min-width: 125px;
+	min-height: 125px;
+	width: 125px;
+	margin: 0 auto;
+	margin-top: -140px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid (34, 34, 34, 0.15);
+	box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.25);
+	padding: 3px;
+	border-radius: 50%;
+}
+**/
