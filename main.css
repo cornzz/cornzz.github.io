@@ -57,6 +57,12 @@ h2 {
 	font-size: 18px;
 }
 
+@media (max-width: 680px) {
+	.container {
+		width: 85%;
+	}
+}
+
 /**
 .headshot {
 	position: relative;
