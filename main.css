@@ -38,7 +38,7 @@ h2 {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	    -ms-transform: translateX(-50%) translateY(-50%);
 	        transform: translateX(-50%) translateY(-50%);
-	width: 75%;
+	width: 60%;
 	background-color: white;
 	-webkit-box-shadow: 0 2px 2px 1.5px rgba(0, 0, 0, 0.25);
 	        box-shadow: 0 2px 2px 1.5px rgba(0, 0, 0, 0.25);
@@ -75,16 +75,16 @@ h2 {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	font-size: 2.9vw;
+	font-size: 2.6vw;
 }
 
 @media (min-width: 600px) {
 	.container {
-		width: 35%;
+		width: 23%;
 	}
 
 	.content {
-		font-size: 1.41vw;
+		font-size: 1vw;
 	}
 }
 
