@@ -90,6 +90,14 @@ a {
 	color: rgba(68, 68, 68, .75);
 }
 
+.mail:after {
+  content: attr(data-user) "@" attr(data-domain);
+}
+
+.mail:hover {
+  cursor: pointer;
+}
+
 .social > *:not(:first-child) {
 	margin-left: 15px;
 }
