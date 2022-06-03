@@ -112,7 +112,7 @@ a {
 	min-width: 5.6vw;
 	outline: none;
 	background-color: rgba(36, 41, 46, .9);
-	border-radius: 20px;
+	border-radius: 100px;
 }
 
 .icon > i::before {
